@@ -37,5 +37,7 @@ git push origin main
 If working from VSCode or RStudio, you shouldn't have to worry too much about these commands. But you should understand what they are used for.
 Here is a picture of some git commands on Bash:
 
+![Git commands in Bash](Bash_commands.png "Screenshot of Bash")
+
 ## Git terminology
 
