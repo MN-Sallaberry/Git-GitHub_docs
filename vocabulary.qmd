@@ -19,3 +19,23 @@ In a nutshell, Git tacks changes on your computer, while GitHub hosts those docu
 
 Here is a nice video if you want to learn more:
 {{< video "https://www.youtube.com/watch?v=wpISo9TNjfU&t=258s" >}}
+
+## Git commands
+
+Gits needs to be installed on your computer. You can go to their [website]("https://git-scm.com/") to do so. You can install Bash, a command line, at the same time. 
+
+There are a few commands that are good to know:  
+- git pull: used to update your local repository (on your computer). If your repository (repo) is a clone of a GitHub repo and changes have been made on GitHub, your repository will be updated.  
+- git checkout -b[branch]: creates and checkout a new branch. You would then use git push -u origin [branch] to create the branch on GitHub. The -u stands for upstream, it links the branch on your computer to the new one on GitHub.  
+- git add: stages the changes you've made. It simply means that you file is ready to commit. You can modify different files and stage them so that you only do one commit.  
+- git commit: this is the phase where your changes get tag with a date, author name etc. You can (and should) add a very short message explaining what changes have been made. The command to commit with a message is: git commit -m "Your message here".  
+- git push: sends/updates the GitHub repo.  
+
+Note: those are simplified command, and are usually followed by additional command. For example, to push your changes to GitHub, you'll have to specify which branch to push onto. The command might look like this:
+git push origin main
+
+If working from VSCode or RStudio, you shouldn't have to worry too much about these commands. But you should understand what they are used for.
+Here is a picture of some git commands on Bash:
+
+## Git terminology
+

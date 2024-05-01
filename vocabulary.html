@@ -85,6 +85,21 @@ ul.task-list li input[type="checkbox"] {
 <p>Here is a nice video if you want to learn more:</p>
 <div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/wpISo9TNjfU" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
 </section>
+<section id="git-commands" class="level2">
+<h2 class="anchored" data-anchor-id="git-commands">Git commands</h2>
+<p>Gits needs to be installed on your computer. You can go to their <a href="%22https://git-scm.com/%22">website</a> to do so. You can install Bash, a command line, at the same time.</p>
+<p>There are a few commands that are good to know:<br>
+- git pull: used to update your local repository (on your computer). If your repository (repo) is a clone of a GitHub repo and changes have been made on GitHub, your repository will be updated.<br>
+- git checkout -b[branch]: creates and checkout a new branch. You would then use git push -u origin [branch] to create the branch on GitHub. The -u stands for upstream, it links the branch on your computer to the new one on GitHub.<br>
+- git add: stages the changes you’ve made. It simply means that you file is ready to commit. You can modify different files and stage them so that you only do one commit.<br>
+- git commit: this is the phase where your changes get tag with a date, author name etc. You can (and should) add a very short message explaining what changes have been made. The command to commit with a message is: git commit -m “Your message here”.<br>
+- git push: sends/updates the GitHub repo.</p>
+<p>Note: those are simplified command, and are usually followed by additional command. For example, to push your changes to GitHub, you’ll have to specify which branch to push onto. The command might look like this: git push origin main</p>
+<p>If working from VSCode or RStudio, you shouldn’t have to worry too much about these commands. But you should understand what they are used for. Here is a picture of some git commands on Bash:</p>
+</section>
+<section id="git-terminology" class="level2">
+<h2 class="anchored" data-anchor-id="git-terminology">Git terminology</h2>
+</section>
 
 </main>
 <!-- /main column -->
