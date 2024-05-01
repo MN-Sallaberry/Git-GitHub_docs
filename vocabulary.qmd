@@ -1,0 +1,21 @@
+---
+title: "Git and GitHub vocabulary"
+author: Marie-Noelle Sallaberry
+date: 05/01/2024
+format: html
+---
+
+In this document, we will learn the terminology and most used commands in Git and GitHub.
+Let's start with an explanation of what Git and GitHub are and how they differ.
+
+## What are Git and GitHub?
+
+Git is a software open source version control system for tracking changes on computer files. This is a local system, not a web/cloud based system.
+In most cases, you need to command line to use Git, even though some IDE like Visual Studio Code or RStudio have integrated Git. I've heard that using a command line (like Bash) works better.
+
+GitHub is a code hosting platform for collaboration and version control. It's a website and cloud based, so users can store their code or documents in repositories that are either public (anyone can see and copy the files) or private (the owner of the GitHub account i). GitHub also has additional functionalities like codespace, projects, and automation.
+
+In a nutshell, Git tacks changes on your computer, while GitHub hosts those documents in the cloud and facilitates collaboration work on files. 
+
+Here is a nice video if you want to learn more:
+{{< video "https://www.youtube.com/watch?v=wpISo9TNjfU&t=258s" >}}
