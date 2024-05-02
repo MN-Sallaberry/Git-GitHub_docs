@@ -49,4 +49,4 @@ Nothing happening on the parallel branch(es) will affect the main branch until t
 This is a great way to experiment on something without risking messing up the main program.  
 - Remote: reference to another Git repo. When initializing a repo on the computer, Git creates a remote called origin, which will be the default remote to push/pull operation. On GitHub, that remote may be called main (main branch) or any name used for the branches.
 
-![Exemple of Git branches - Picture from digitalvarys.com](git_op.jpg){fig-alt="Picture of 3 Git branches" width=50% fig-align="center"}
+![Exemple of Git branches - Picture from digitalvarys.com](git_op.jpg){fig-alt="Picture of 3 Git branches" width=80% fig-align="center"}
