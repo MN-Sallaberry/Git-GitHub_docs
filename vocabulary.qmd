@@ -67,5 +67,5 @@ Let's add a few more:
 
 # Reference and ressources
 
-[GitHub docs](https://docs.github.com/en)
+[GitHub docs](https://docs.github.com/en)  
 [Git documentation](https://git-scm.com/doc)
