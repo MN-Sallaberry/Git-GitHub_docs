@@ -49,4 +49,17 @@ Nothing happening on the parallel branch(es) will affect the main branch until t
 This is a great way to experiment on something without risking messing up the main program.  
 - Remote: reference to another Git repo. When initializing a repo on the computer, Git creates a remote called origin, which will be the default remote to push/pull operation. On GitHub, that remote may be called main (main branch) or any name used for the branches.
 
-![Exemple of Git branches - Picture from digitalvarys.com](git_op.jpg){fig-alt="Picture of 3 Git branches" width=80% fig-align="center"}
+![Exemple of Git branches - Picture from digitalvarys.com](git_op.jpg){fig-alt="Picture of 3 Git branches" width=80%}
+
+## GitHub terminology
+
+Let's now take a look at some of the terminology you may encounter when working with GitHub. GitHub being a place to store your git repo in the cloud, you will find that they share a lot of the words: for exemple, commit, branch, etc.
+Let's add a few more:
+
+- Pull request: if you don't have complete access to a repo as a collaborator, you won't be able to push your commits to the main branch. You have to send a pull request to the owner/maintainer. The maintainer might ask for some modification before merging.  
+- Fork: if you want to work independently on a repo that you don't own, you can fork that repo to your personal GitHub. The repo will appear among your other repo and tell you if updates have been made to the main repo so you new to update (using the button "sync fork"). You can modify the forked repo and push your changes to the main repo (using "Contribute" button). Note: when someone fork a repo, they create a temporary branch. 
+- Clone: clone is the equivalent of forking, but it's between GitHub and your local machine instead of between two GitHub accounts.   
+- Merging: accepting the pull request and modifying the selected branch. The maintainer can select which commits to merge.  
+- Readme.md: a markdown file to describe the project, and eventually the rules to contribute.  
+
+![Exemple of a forked repo on my GitHub account. Notice the line that says "This branch is up to date with Horiana/tools/main. The fork can be ahead by x commits if I've made changes, in which case I could hit the "Contribute" button. Or it could be behind main, in which case I would use the button "Sync fork"](Tools_fork.png "Image of a forked repo")
