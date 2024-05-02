@@ -105,6 +105,23 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="git-terminology" class="level2">
 <h2 class="anchored" data-anchor-id="git-terminology">Git terminology</h2>
+<ul>
+<li>Working tree: a set of nested directories and files that contain the project.<br>
+</li>
+<li>Repo (repository): the root directory<br>
+</li>
+<li>Commit: commit the changes so people can see them<br>
+</li>
+<li>Branch: “a named series of linked commits”. The default branch, when you create the repo, is called “main” or “master” and the most recent commit is called the HEAD. To make the analogy with road, main would be one road that everyone takes, but at any point, it is possible to take a different road parallel to the main (create a new branch), and go back to the main later (merge). Nothing happening on the parallel branch(es) will affect the main branch until the merge is done. This is a great way to experiment on something without risking messing up the main program.<br>
+</li>
+<li>Remote: reference to another Git repo. When initializing a repo on the computer, Git creates a remote called origin, which will be the default remote to push/pull operation. On GitHub, that remote may be called main (main branch) or any name used for the branches.</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="git_op.jpg" class="img-fluid figure-img" style="width:50.0%"></p>
+<figcaption>Exemple of Git branches - Picture from digitalvarys.com</figcaption>
+</figure>
+</div>
 </section>
 
 </main>

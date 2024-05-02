@@ -41,3 +41,12 @@ Here is a picture of some git commands on Bash:
 
 ## Git terminology
 
+- Working tree: a set of nested directories and files that contain the project.  
+- Repo (repository): the root directory  
+- Commit: commit the changes so people can see them  
+- Branch: "a named series of linked commits". The default branch, when you create the repo, is called "main" or "master" and the most recent commit is called the HEAD. To make the analogy with road, main would be one road that everyone takes, but at any point, it is possible to take a different road parallel to the main (create a new branch), and go back to the main later (merge). 
+Nothing happening on the parallel branch(es) will affect the main branch until the merge is done.
+This is a great way to experiment on something without risking messing up the main program.  
+- Remote: reference to another Git repo. When initializing a repo on the computer, Git creates a remote called origin, which will be the default remote to push/pull operation. On GitHub, that remote may be called main (main branch) or any name used for the branches.
+
+![Exemple of Git branches - Picture from digitalvarys.com](git_op.jpg){fig-alt="Picture of 3 Git branches" width=50% fig-align="center"}
