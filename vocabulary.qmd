@@ -15,7 +15,7 @@ In most cases, you need to use the command line to interact with Git, although s
 
 GitHub is a code hosting platform for collaboration and version control. It's a website and cloud based service, allowing users to store their code or documents in repositories that can be public (anyone can see and copy the files) or private (restricted access). GitHub also offers additional functionalities like codespace, projects, and automation tools (like GitHub Actions).
 
-In a nutshell, Git tacks changes on your computer, while GitHub hosts those documents in the cloud and facilitates collaborative work on files. 
+In a nutshell, Git tracks changes on your computer, while GitHub hosts those documents in the cloud and facilitates collaborative work on files. 
 
 Here is a nice video if you want to learn more:
 {{< video "https://www.youtube.com/watch?v=wpISo9TNjfU&t=258s" >}}
@@ -63,7 +63,7 @@ Let's add a few more:
 - Merging: integrating the changes from a source branch into a target branch (usually the main branch, but it doesn't have to be). The maintainer can select which commits to merge if this is done through a pull request.  
 - Readme.md: a markdown file used to describe the project, and potentially outline the rules for contributing.  
 
-![Example of a forked repo on my GitHub account. Notice the line that says "This branch is up to date with Horiana/tools/main. The fork can be ahead by x commits if I've made changes, in which case I could hit the "Contribute" button. Or it could be behind main, in which case I would use the button "Sync fork"](Tools_fork.png "Image of a forked repo")
+![Example of a forked repo on my GitHub account. Notice the line that says "This branch is up to date with Fastai/fastpages:master. The fork branch can be ahead by x commits if I've made changes, in which case I could hit the "Contribute" button. Or it could be behind main, in which case I would use the button "Sync fork"](fastpages_fork.png "Image of a forked repo")
 
 # Reference and ressources
 
